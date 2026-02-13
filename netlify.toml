@@ -1,0 +1,10 @@
+[build]
+  command = "vite build"
+  publish = "dist"
+
+[dev]
+  command = "vite"
+
+[settings]
+  functions = "netlify/functions"
+  node_version = "16"
